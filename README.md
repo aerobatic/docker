@@ -2,13 +2,14 @@
 
 A collection of Dockerfiles used by Aerobatic for front-end and back-end CI builds.
 
+### aerobatic/hugo
 
-### Cheatsheet
+ Image that can be installed on a Docker enabled CI service to build to generate a [Hugo](https://gohugo.io) site and deploy to [Aerobatic](https://www.aerobatic.com). Has been tested with [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines).
 
-~~~sh
-# SSH into the EC2
-ssh -i ~/.ssh/xxx.pem ec2-user@ec2-xx-xxx-xxx.us-west-2.compute.amazonaws.com
+**What's in the box?**
+* python / pip (2.7.12)
+* hugo (v0.18)
+* node (v6.9.5)
+* [aerobatic-cli](https://www.aerobatic.com/docs/cli/) (1.0.14)
 
-# Upload all the necessary files to the EC2
-scp -i ~/.ssh/xxx.pem -r [!.]*  ec2-user@ec2-xx-xxx-xxx-xx.us-west-2.compute.amazonaws.com:docker/)
-~~~
+Available on Dockerhub at https://hub.docker.com/r/aerobatic/hugo/
