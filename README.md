@@ -26,4 +26,4 @@ Alpine based image that can be installed on a Docker enabled CI service to build
 * node (v6.9.2)
 * [aerobatic-cli](https://www.aerobatic.com/docs/cli/) (1.0.14)
 
-Available on Dockerhub at https://hub.docker.com/r/aerobatic/hugo/
+Available on Dockerhub at https://hub.docker.com/r/aerobatic/jekyll/
