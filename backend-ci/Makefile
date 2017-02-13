@@ -3,7 +3,6 @@ VERSION = 0.0.1
 REPO = aerobatic/backend-ci
 
 build:
-	chmod 755 start-dynamodb.sh
 	docker build --rm=false -t $(REPO):$(VERSION) .
 
 interactive:
