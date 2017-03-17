@@ -8,7 +8,7 @@ Alpine based image that can be installed on a Docker enabled CI service to build
 
 **What's in the box?**
 * python / pip (2.7.13)
-* hugo (v0.18.1)
+* hugo (v0.19)
 * node (v6.9.2)
 * [aerobatic-cli](https://www.aerobatic.com/docs/cli/) (1.0.14)
 

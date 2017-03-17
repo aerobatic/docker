@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER David Von Lehman <david@aerobatic.com>
 
-ENV HUGO_VERSION=0.18.1
+ENV HUGO_VERSION=0.19
 
 RUN apk add --no-cache wget ca-certificates nodejs python2 python2-dev py-pip bash git
 
@@ -20,4 +20,4 @@ RUN pip install --upgrade pip && \
   pip install Pygments==2.1.3 pygments-github-lexers==0.0.5
 
 # Install the aerobatic-cli globally
-RUN npm install -g aerobatic-cli@1.0.21
+RUN npm install -g aerobatic-cli@1.0.31
