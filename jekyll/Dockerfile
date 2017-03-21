@@ -18,4 +18,4 @@ RUN gem clean && gem install --no-ri --no-rdoc \
 RUN rm -rf /usr/lib/ruby/gems/*/cache/*.gem
 
 # Install the aerobatic-cli globally
-RUN npm install -g aerobatic-cli@1.0.31
+RUN npm install -g aerobatic-cli@1.0.33

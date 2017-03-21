@@ -20,4 +20,4 @@ RUN pip install --upgrade pip && \
   pip install Pygments==2.1.3 pygments-github-lexers==0.0.5
 
 # Install the aerobatic-cli globally
-RUN npm install -g aerobatic-cli@1.0.31
+RUN npm install -g aerobatic-cli@1.0.33
