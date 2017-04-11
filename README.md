@@ -27,3 +27,14 @@ Alpine based image that can be installed on a Docker enabled CI service to build
 * [aerobatic-cli](https://www.aerobatic.com/docs/cli/) (1.0.14)
 
 Available on Dockerhub at https://hub.docker.com/r/aerobatic/jekyll/
+
+### aerobatic/nodejs
+
+Alpine based image that can be installed on a Docker enabled CI service to build a static site using a Node based generator such as [hexo](https://hexo.io/), [gulpjs](http://gulpjs.com/), or [Gatsby](https://github.com/gatsbyjs/gatsby), [webpack](https://webpack.github.io/) etc. Also appropriate for plain HTML sites that just need to run the `aero deploy` command and nothing else. Tested with [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines).
+
+**What's in the box?**
+* node (v6.9.2)
+* [aerobatic-cli](https://www.aerobatic.com/docs/cli/) (1.0.37)
+
+Available on Dockerhub at https://hub.docker.com/r/aerobatic/nodejs/
+
